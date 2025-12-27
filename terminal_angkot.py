@@ -4,4 +4,7 @@ keluar = int(input("Angkot Keluar: "))
 
 angkot_sekarang = angkot_awal + masuk - keluar
 
-print("Angkot di terminal sekarang adalah: ", angkot_sekarang)
+if angkot_sekarang < 0 :
+    print("ERROR : Angkot melebihi jumlah tersedia")
+else : 
+    print("Angkot di terminal sekarang ", angkot_sekarang)

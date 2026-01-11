@@ -1,3 +1,7 @@
+nama = input("Masukkan nama")
+nilai = input("Masukkan Nilai")
+Kelas = input("Masukkan Kelas")
+
 siswa = [
     {"nama":"Andi","nilai":80,"kelas":"X"},
     {"nama":"Budi","nilai":60,"kelas":"X"},

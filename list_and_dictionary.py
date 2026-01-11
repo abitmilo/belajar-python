@@ -1,6 +1,5 @@
 matkul = ["Python", "Web", "Database"]
 
-
 mahasiswa = {
         "nama" : input("masukkan nama: "),
         "semester" : int(input("masukkan semester: ")),

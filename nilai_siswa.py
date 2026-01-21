@@ -1,12 +1,9 @@
-nama = input("Masukkan nama")
-nilai = input("Masukkan Nilai")
-Kelas = input("Masukkan Kelas")
+nama = input("Masukkan Nama Siswa: ")
+nilai = int(input("Masukkan Nilai Siswa: "))
+kelas = input("Masukkan Kelas Siswa: ")
 
 siswa = [
-    {"nama":"Andi","nilai":80,"kelas":"X"},
-    {"nama":"Budi","nilai":60,"kelas":"X"},
-    {"nama":"Cici","nilai":90,"kelas":"XI"},
-    {"nama":"Dedi","nilai":70,"kelas":"XI"}
+    {"nama":nama,"nilai":nilai,"kelas":kelas},
 ]
 
 def cek_lulus(nilai):

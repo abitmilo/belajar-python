@@ -1,0 +1,3 @@
+Andi,80
+Budi,69
+Cici,90

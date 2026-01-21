@@ -1,5 +1,9 @@
-celcius = 30
-fahrenheit = (celcius * 9 / 5) + 32 
+def tambah_siswa():
+    nama = input("Masukkan nama: ")
+    nilai = int(input("Masukkan nilai: "))
+    return nama, nilai
 
-print("suhu dalam celcius adalah",celcius)
-print('suhu dalam fahrenheit adalah',fahrenheit)
+nama, nilai = tambah_siswa()
+
+print(nama)
+print(nilai)

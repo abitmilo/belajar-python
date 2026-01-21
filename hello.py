@@ -1,3 +1,5 @@
+import os
+
 siswa_list = []
 
 def cek_kelulusan(nilai):
@@ -7,7 +9,10 @@ def cek_kelulusan(nilai):
         return "Baik"
     else:
         return "Tidak Lulus"
-    
+
+os.system("clear")    
+
+
 while True:
     print("Input Data Siswa")
     nama = input("Masukkan nama siswa : ")
